@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 import edu.eci.cvds.samples.entities.Cliente;
+import edu.eci.cvds.samples.entities.ItemRentado;
 public interface ClienteMapper {
 
     public Cliente consultarCliente(@Param("idcli") int id);
@@ -28,5 +29,10 @@ public interface ClienteMapper {
      * @return
      */
     public List<Cliente> consultarClientes();
+    public List<ItemRentado> consultarItems(@Param("idcliente") long id);
+
+    public void registrarCliente(@Param("cliente") Cliente c);
+
+    public void vetarCliente(@Param("docu") long docu, @Param("estado") boolean estado);
 
 }
