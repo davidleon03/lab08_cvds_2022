@@ -9,6 +9,8 @@ Cree la interface ServiciosAlquiler para los servicios de la capa lógica:\
 Realice en la implementación de la capa lógica (ServiciosAlquilerImpl), inyecte los DAO que sean necesarios. Tome de ejemplo el ItemDAO.\
 Realice la implementación de un servicio Stub (ServiciosAlquilerItemsStub) para que se pueda probar la lógica facilmente sin la capa de persistencia:\
 ![image](https://user-images.githubusercontent.com/98216838/160673201-1c69c788-4fa5-4bbc-9164-0326de51137c.png)\
+Pruebe el programa ‘Main’ suministrado, y con este rectifique que a través de la capa lógica se pueda consultar un cliente.\
 
+Implemente los métodos que sean necesarios en las interfaces de las entidades (DAO) y en sus implementaciones haciendo uso del DAO inyectado. Haga un programa para comprobar que la consulta de un cliente se haga correctamente, a través de la capa lógica.\
 
 
