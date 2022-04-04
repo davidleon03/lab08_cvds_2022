@@ -17,3 +17,24 @@ Implemente los métodos que sean necesarios en las interfaces de las entidades (
 ![image](https://user-images.githubusercontent.com/98216838/161363334-c25c3bd3-55ce-4589-9602-0c90f9efd864.png)
 ![image](https://user-images.githubusercontent.com/98216838/161363352-0b2cb624-670b-487d-9ea2-0dba00614133.png)
 ![image](https://user-images.githubusercontent.com/98216838/161363358-8dfdfecc-49b9-402d-98dc-ce9f4cd7216f.png)
+## PARTE II - PRUEBAS
+
+PARTE III - CAPA PRESENTACIÓN
+
+3. Cree el listener con el paquete y nombre indicados de forma que se asocie la configuración de Guice y MyBatis a la inicialización del contexto de la aplicación en el servidor tomcat7 embebido, con el siguiente contenido inicial, resolviendo el ‘TODO’ (asociando la interfaz del servicio a la implementación Stub)
+
+  ![image](https://user-images.githubusercontent.com/78982514/161620858-065c9019-47d6-41fd-bec9-1b3f68206147.png)
+  
+5. Implementar la aplicación Web que permita agregar nuevos clientes a la videotienda, y registrar alquileres para los mismos. Ambas funcionalidades estarán en dos vistas diferentes (registrocliente.xhtml, registroalquiler.xhtml), de acuerdo con las siguientes especificaciones (tenga en cuenta que, por ahora, la aplicación no maneja ningún esquema de autenticación)
+
+### Registro Alquiler
+ 
+![image](https://user-images.githubusercontent.com/78982514/161624436-9c08df6a-1b56-4473-b19e-a82024056050.png)
+![image](https://user-images.githubusercontent.com/78982514/161624472-2debe4e0-2b19-42a3-8bdc-d7a472b24935.png)
+ 
+
+### Registro Cliente
+
+![image](https://user-images.githubusercontent.com/78982514/161624330-af054d57-cf3a-4582-8ff4-aaf76d38e0c7.png)
+![image](https://user-images.githubusercontent.com/78982514/161624352-47831df2-e93c-448b-b3a8-df1d2b768546.png)
+
