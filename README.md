@@ -24,6 +24,7 @@ PARTE III - CAPA PRESENTACIÓN
 3. Cree el listener con el paquete y nombre indicados de forma que se asocie la configuración de Guice y MyBatis a la inicialización del contexto de la aplicación en el servidor tomcat7 embebido, con el siguiente contenido inicial, resolviendo el ‘TODO’ (asociando la interfaz del servicio a la implementación Stub)
 
   ![image](https://user-images.githubusercontent.com/78982514/161620858-065c9019-47d6-41fd-bec9-1b3f68206147.png)
+  
 5. Implementar la aplicación Web que permita agregar nuevos clientes a la videotienda, y registrar alquileres para los mismos. Ambas funcionalidades estarán en dos vistas diferentes (registrocliente.xhtml, registroalquiler.xhtml), de acuerdo con las siguientes especificaciones (tenga en cuenta que, por ahora, la aplicación no maneja ningún esquema de autenticación)
 
 ### Registro Alquiler
