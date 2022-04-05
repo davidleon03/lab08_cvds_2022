@@ -75,11 +75,11 @@
     
 	  <insert parameterType="map" id="agregarCliente">
         insert into VI_CLIENTES(documento,nombre,telefono,direccion,email,vetado)
-		values (#{cli.documento},#{cli.nombre},#{cli.telefono},#{cli.direccion},#{cli.email},#{cli.vetado});
+		values (#{cliente.documento},#{cliente.nombre},#{cliente.telefono},#{cliente.direccion},#{cliente.email},#{cliente.vetado});
     </insert>
 	
 	<update id="vetarCliente" parameterType="map">
-		update VI_CLIENTES set vetado=#{estado} where documento=#{cli};
+		update VI_CLIENTES set vetado=#{estado} where documento=#{cliente.documento};
 	</update>
 
 
