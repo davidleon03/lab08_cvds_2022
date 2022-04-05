@@ -79,7 +79,7 @@
     </insert>
 	
 	<update id="vetarCliente" parameterType="map">
-		update VI_CLIENTES set vetado=#{estado} where documento=#{cliente.documento};
+		update VI_CLIENTES set vetado=#{estado} where documento=#{docu};
 	</update>
 
 
