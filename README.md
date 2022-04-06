@@ -13,10 +13,6 @@ Pruebe el programa ‘Main’ suministrado, y con este rectifique que a través 
 
 Implemente los métodos que sean necesarios en las interfaces de las entidades (DAO) y en sus implementaciones haciendo uso del DAO inyectado. Haga un programa para comprobar que la consulta de un cliente se haga correctamente, a través de la capa lógica.\
 
-
-![image](https://user-images.githubusercontent.com/98216838/161363334-c25c3bd3-55ce-4589-9602-0c90f9efd864.png)
-![image](https://user-images.githubusercontent.com/98216838/161363352-0b2cb624-670b-487d-9ea2-0dba00614133.png)
-![image](https://user-images.githubusercontent.com/98216838/161363358-8dfdfecc-49b9-402d-98dc-ce9f4cd7216f.png)
 ## PARTE II - PRUEBAS
 
 PARTE III - CAPA PRESENTACIÓN
