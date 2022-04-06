@@ -70,6 +70,17 @@
     <insert id="agregarItemRentadoACliente" parameterType="map" >
         insert into VI_ITEMRENTADO(CLIENTES_documento,ITEMS_id,fechainiciorenta, fechafinrenta) values (#{idcl},#{idit},#{Fechai},#{Fechaf});
     </insert>
+  
+  
+    
+	  <insert parameterType="map" id="agregarCliente">
+        insert into VI_CLIENTES(documento,nombre,telefono,direccion,email,vetado)
+		values (#{cliente.documento},#{cliente.nombre},#{cliente.telefono},#{cliente.direccion},#{cliente.email},#{cliente.vetado});
+    </insert>
+	
+	<update id="vetarCliente" parameterType="map">
+		update VI_CLIENTES set vetado=#{estado} where documento=#{docu};
+	</update>
 
 
     <resultMap type='Cliente' id='ClienteResult'>
